@@ -1,0 +1,19 @@
+{
+  "name": "nope-clock",
+  "version": "1.0.0",
+  "description": "Relógio básico para teste",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --win portable"
+  },
+  "devDependencies": {
+    "electron": "^38.1.0",
+    "electron-builder": "^26.0.12"
+  },
+  "build": {
+    "appId": "com.nope.clock",
+    "productName": "Nope Clock",
+    "win": { "target": "portable" }
+  }
+}
